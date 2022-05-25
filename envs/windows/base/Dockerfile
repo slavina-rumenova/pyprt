@@ -1,7 +1,6 @@
 # escape=`
 
-FROM mcr.microsoft.com/windows/servercore:ltsc2022
-#1809
+FROM mcr.microsoft.com/windows/servercore:1809
 SHELL ["cmd", "/S", "/C"]
 
 ADD https://zrh-code.esri.com/nexus/content/repositories/thirdparty/com/microsoft/ndp/48/ndp-48-x86-x64-allos-enu.exe C:\temp\ndp48-x86-x64-allos-enu.exe
